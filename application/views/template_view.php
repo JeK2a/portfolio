@@ -26,7 +26,7 @@
                     <p>
                         <a href=""><img src="../images/logo.jpg"  width="180" " alt="lorem"></a>
                     </p>
-<!--					<a href="/">JeK2a</span> <span class="cms">Компани</span></a>-->
+					<a href="/">JeK2a</span> <span class="cms">Компани</span></a>
 				</div>
 				<div id="menu">
 					<ul>
