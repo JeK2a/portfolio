@@ -38,6 +38,23 @@
 					</ul>
 					<br class="clearfix"/>
 				</div>
+
+                <div class = "col-md-3 col-md-pull-9">
+                    <h2>Сайдбар</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Автосалоны
+                            <span class="badge">19</span>
+                        </li>
+                        <li class="list-group-item">Автомастерские
+                            <span class="badge">178</span>
+                        </li>
+                        <li class="list-group-item">Ремонт
+                        </li>
+                        <li class="list-group-item">Объявления
+                        </li>
+                    </ul>
+                </div>
+
 			</div>
 			<div id="page">
 				<div id="sidebar">
