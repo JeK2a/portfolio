@@ -16,6 +16,10 @@ class Route
 		
 		$routes = explode('/', $_SERVER['REQUEST_URI']);
 
+//		echo '<pre>';
+//        var_dump($routes);
+//        echo '/<pre>';
+
 		// получаем имя контроллера
 		if (!empty($routes[1])) {
 			$controller_name = $routes[1];
@@ -31,11 +35,9 @@ class Route
 		$controller_name = 'Controller_'.$controller_name;
 		$action_name = 'action_'.$action_name;
 
-		/*
-		echo "Model: $model_name <br>";
-		echo "Controller: $controller_name <br>";
-		echo "Action: $action_name <br>";
-		*/
+//		echo "Model: $model_name <br>";
+//		echo "Controller: $controller_name <br>";
+//		echo "Action: $action_name <br>";
 
 		// подцепляем файл с классом модели (файла модели может и не быть)
 
@@ -59,7 +61,7 @@ class Route
 		}
 		
 		// создаем контроллер
-		$controller = new $controller_name;
+        $controller = new $controller_name;
 		$action = $action_name;
 		
 		if(method_exists($controller, $action)) {

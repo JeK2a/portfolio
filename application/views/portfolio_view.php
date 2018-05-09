@@ -1,15 +1,21 @@
-<h1>Портфолио</h1>
-<p>
-<table>
-Все проекты в следующей таблице являются вымышленными, поэтому даже не пытайтесь перейти по приведенным ссылкам.
-<tr><td>Год</td><td>Проект</td><td>Описание</td></tr>
-<?php
+<div class="container">
+    <h1>Портфолио</h1>
+    <p>Все проекты в следующей таблице являются вымышленными, поэтому даже не пытайтесь перейти по приведенным ссылкам.</p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Год</th><th>Проект</th><th>Описание</th>
+        </tr>
+        </thead>
+        <tbody>
+            <?php
 
-	foreach($data as $row)
-	{
-		echo '<tr><td>'.$row['Year'].'</td><td>'.$row['Site'].'</td><td>'.$row['Description'].'</td></tr>';
-	}
-	
-?>
-</table>
-</p>
+            foreach($data as $row)
+            {
+                echo '<tr><td>'.$row['Year'].'</td><td>'.$row['Site'].'</td><td>'.$row['Description'].'</td></tr>';
+            }
+
+            ?>
+        </tbody>
+    </table>
+</div>
