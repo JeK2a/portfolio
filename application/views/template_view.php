@@ -53,7 +53,6 @@
                         <div class="box">
                             <?php include 'application/views/'.$content_view; ?>
                         </div>
-<!--                        <br class="clearfix"/>-->
                     </div>
                 </div>
 
